@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #173753;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 25px;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+#calc-container {
+  width: 400px;
+  display: flex;
+  height: 600px;
+  background-color: #1D70A2;
+  border-radius: 3%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+#calc-container .display {
+  width: 90%;
+  display: flex;
+  height: 80px;
+  background-color: #b1d8f3;
+  border-radius: 3%;
+  box-shadow: 0px 0px 20px 2px #efefef;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#calc-container .buttons {
+  background-color: #6DAEDB;
+  height: 80%;
+  width: 90%;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#calc-container .buttons .left-buttons button {
+  background-color: #1B4353;
+  height: 90px;
+  width: 30%;
+  border-radius: 15%;
+  margin: 3px;
+  color: #ffffff;
+}
+
+#calc-container .buttons .left-buttons {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#calc-container .buttons .right-buttons {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#calc-container .buttons .right-buttons button {
+  background-color: #1B4353;
+  height: 80px;
+  width: 100%;
+  color: #ffffff;
+  border-radius: 15%;
+  margin: 3px;
+  color: #ffffff;
+}
+
+#calc-container .buttons .left-buttons button:hover {
+  background-color: #13303c;
+}
+
+#calc-container .buttons .right-buttons button:hover {
+  background-color: #13303c;
+}
+
+#calc-container .buttons .right-buttons button.menos {
+  height: 19%;
+}
+
+#calc-container .buttons .right-buttons button.mas {
+  height: 39%;
+}
+
+#calc-container .buttons .right-buttons button.igual {
+  height: 39%;
+}
+
+#calc-container .buttons .left-buttons .space {
+  background-color: #1B4353;
+  height: 90px;
+  width: 30%;
+  border-radius: 15%;
+  margin: 3px;
+  color: #ffffff;
+}
