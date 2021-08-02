@@ -1,3 +1,3 @@
 # Calculadora
 
-Calculadora hecha con React.js y Redux.
+-Calculadora realizada con React y Redux,  permite operaciones básicas como multiplicacion, división, suma y resta.
